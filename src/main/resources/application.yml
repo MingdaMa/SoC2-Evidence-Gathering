@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: demo
+datasources:
+  default:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    db-type: mysql
+netty:
+  default:
+    allocator:
+      max-order: 3
